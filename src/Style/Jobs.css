@@ -1,0 +1,133 @@
+.Jobs {
+    margin-top: 99px;
+    margin-bottom: 133px;
+}
+
+.Jobs .son1{
+
+}
+.Jobs .son1 .tit {
+    display: flex;
+    margin-bottom: 28px;
+}
+.Jobs .son1 .tit i {
+    margin-top: 4px;
+    font-size: 20px;
+    margin-right: 9px;
+}
+
+.Jobs .son1 .tit h4 {
+    font-size: 22px;
+}
+.Jobs .son1 .all {
+    border: 1px solid #80808045;
+    width: 285px;
+    padding: 23px;
+}
+.Jobs .son1 .all h5 {
+    margin-bottom: 20px;
+    margin-top: 52px;
+}
+
+.Jobs .son1 .all .check {
+    margin-bottom: 9px;
+    font-size: 17px;
+}
+
+.Jobs .son1 .all .filter .spp{
+    display: flex;
+}
+
+.Jobs .son1 .all .filter .spp span {
+    margin-right: 18px;
+}
+.Jobs .son1 .all .filter .spp p {
+    margin-right: 13px;
+    font-size: 18px;
+}
+
+
+/*son2  */
+
+
+
+.Jobs .son2 {
+    margin-left: 77px;
+}
+
+.Jobs .son2 .title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Jobs .son2 .sss , .Jobs .son2 .sss .sort{
+    display: flex;
+}
+
+.Jobs .son2 .sss .sort {
+    margin-left: auto;
+}
+.Jobs .son2 .sss .sort p {
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.Jobs .son2 .big {
+    margin-top: 26px;
+    width: 855px;
+    padding: 34px;
+    border: 1px solid #8080801a;
+    margin-bottom: 21px;
+
+}
+.Jobs .son2 .big .left{
+    width: 589px;
+}
+.Jobs .son2 .big .right {
+    margin-left: 275px;
+    width: 255px;
+
+}
+.Jobs .son2 .big:hover{
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0), 0 5px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.Jobs .son2 .big .left .spp{
+    display: flex;
+}
+
+.Jobs .son2 .big .left .media h4.media-heading {
+    margin-bottom: 14px;
+}
+
+.Jobs .son2 .big .left .media a.media-left {
+    margin-right: 24px;
+}
+.Jobs .son2 .big .left .media{
+
+}
+
+.Jobs .son2 .big .left .spp span {
+    margin-right: 44px;
+}
+
+.Jobs .son2 .big .left .spp i {
+    margin-top: 4px;
+    margin-right: 5px;
+}
+.Jobs .son2 .big .left .spp p {
+    margin-right: 31px;
+    font-size: 18px;
+}
+
+
+.Jobs .son2 .big .right p {
+    margin-top: 15px;
+}
+
+.Jobs .son2 .big .right button {
+    padding-left: 26px;
+    padding-right: 26px;
+    border-radius: 40px;
+}

@@ -1,0 +1,46 @@
+.Agents {
+    margin-bottom: 100px;
+    margin-top: 191px;
+}
+.Agents .soon {
+    margin-bottom: 107px;
+    position: relative;
+    z-index: 1;
+}
+.Agents .soon img {
+    position: absolute;
+    z-index: 2;
+    width: 244px;
+    height: 306px;
+    border-radius: 10px;
+    bottom: 30%;
+    left: -7%;
+}
+.Agents .shadw .social {
+    display: grid;
+    position: absolute;
+    z-index: 2;
+    left: 63%;
+    top: 8%;
+}
+.Agents .titlee {
+    position: absolute;
+    z-index: 2;
+    top: 68%;
+}
+.Agents .soon .shadw {
+    width: 263px;
+    height: 331px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 7px;
+}
+.Agents .soon .shadw h4 {
+    margin-left: 49px;
+    font-size: 22px;
+    margin-top: 19px;
+}
+
+.Agents .soon .shadw p {
+    margin-left: 49px;
+
+}

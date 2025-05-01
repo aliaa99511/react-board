@@ -1,0 +1,81 @@
+.Hotel {
+    background-color: #8080800d;
+    padding-top: 138px;
+    padding-bottom: 168px;
+}
+.Hotel .carimg{
+    height: 219px;
+}
+.Hotel p.flexx1.card-text {
+    display: flex;
+}
+.Hotel p.flexx1.card-text h6 span {
+    padding: 7px;
+    font-size: 11px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.Hotel p.flexx1.card-text h6:last-child {
+    margin-left: auto;
+}
+.Hotel .fleexx2 p {
+    color: white;
+    font-weight: 600;
+}
+.Hotel .fleexx2 {
+    display: flex;
+    margin-top: 125px;
+}
+.Hotel .fleexx2 .pho {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 7px;
+    margin-top: -3px;
+}
+
+.Hotel p.text-center.mon.card-text {
+    font-weight: 700;
+    margin-top: 7px;
+}
+
+.Hotel .heed {
+    font-size: 19px;
+    font-weight: 700;
+}
+.Hotel .icon i{
+    color: #17a2b8;
+}
+
+.Hotel .icon span {
+    margin-right: 19px;
+    margin-left: 4px;
+}
+.Hotel p.count.card-text {
+    color: white;
+    background: #1c1c1c;
+    height: 40px;
+    /*width: 348px;*/
+    width: 113%;
+    margin-left: -20px;
+    margin-bottom: -19px;
+    margin-top: 28px;
+    display: flex;
+    padding: 11px;
+
+}
+.Hotel p.count.card-text i {
+    color: #19c0db;
+    margin-top: 4px;
+    margin-right: 6px;
+}
+
+.Hotel p.count.card-text .sta {
+    /*margin-right: 69px;*/
+    margin-right: auto;
+}
+.Hotel p.count.card-text .sta1 {
+    margin-right: 32px;
+
+}

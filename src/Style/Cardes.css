@@ -1,0 +1,87 @@
+.Cardes{
+    margin-bottom: 100px;
+}
+.Cardes .immg{
+    height: 218px;
+
+}
+.Cardes .Card{
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0), 0 5px 8px rgba(0, 0, 0, 0.1);
+
+}
+.card-deck .card {
+    margin-bottom: 33px!important;
+}
+.Cardes hr {
+    margin-top: 3px;
+    margin-bottom: 12px;
+}
+.Cardes .os {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    top: 186px;
+}
+.Cardes p.card-text {
+    margin-bottom: 0px;
+}
+.Cardes .locati i {
+    margin-top: 5px;
+    margin-right: 8px;
+}
+.Cardes .phones i{
+    margin-right: 8px;
+    margin-top: 4px;
+
+}
+.Cardes .card-title {
+    margin-bottom: .75rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Cardes .prices{
+    display: flex;
+}
+.Cardes .prices .icons i{
+    color: #F09D17;
+
+}
+.Cardes .prices .pric {
+    color: #f03250;
+    margin-left: auto;
+    font-weight: 700;
+}
+.Cardes .locati ,.Cardes .phones {
+    display: flex;
+    color: #706f6f
+}
+
+.Cardes .restu{
+    display: flex;
+}
+
+.Cardes .ccc{
+    width: 40px;
+    height: 40px;
+}
+.Cardes .restu p{
+    color: #50D437;
+    margin-left: auto;
+    font-weight: 700;
+
+}
+.Cardes .restu h6 {
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+/*
+.Cardes .card3 .os {
+    top: 163px;
+}
+
+.Cardes .card3 .card-title {
+    margin-top: 22px;
+}*/

@@ -1,0 +1,63 @@
+.video-bg
+{
+    visibiliy:visible;
+    animation-delay:0.2s;
+    ainmatio-name:fadeInLeft;
+}
+
+
+
+.history-video-area .video-bg {
+    position: relative;
+    z-index: 1;
+}
+.history-video-area .video-bg img {
+    width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.history-video-area .video-bg .video-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+.history-video-area .video-bg .video-icon a.btn-icon {
+    position: relative;
+}
+.history-video-area .video-bg .video-icon a.btn-icon::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    border-radius: inherit;
+    border: 1px solid #c68b55;
+    -webkit-animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
+    animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+
+.fa, .far, .fas {
+    font-family: Font Awesome\ 5 Free;
+}
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.fa-play:before {
+    content: "\f04b";
+}

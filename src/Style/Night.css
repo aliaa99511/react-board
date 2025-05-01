@@ -1,0 +1,44 @@
+
+
+.Night{
+    background-image: url("/images/chooseus-bg.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 130px;
+    margin-bottom: 160px;
+    padding: 70px 50px;
+}
+.Night h3 {
+    color: white;
+}
+.Night .tex {
+    color: #c0bebe;
+    font-size: 18px;
+    margin-bottom: 55px;
+}
+.Night .cont1 {
+    margin-bottom: 35px;
+}
+.Night .cont .img {
+    width: 87px;
+    height: 81px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 18px;
+    line-height: 84px;
+    text-align: center;
+    margin-right: 27px;
+}
+
+.Night .cont .media {
+    color: #c0bebe;
+}
+.Night .cont .head{
+    color: white;
+}
+
+
+
+/*   color: gainsboro;*/
+/*    border-left: 5px solid #00C89E;*/

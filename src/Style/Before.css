@@ -1,0 +1,62 @@
+
+.before {
+    padding-top: 33px;
+    padding-bottom: 34px;
+    /*padding-left: 27px;
+    display: flex;*/
+}
+
+.before .social a {
+    background-color: #8080803b;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
+.before .logo {
+    /*margin-left: 250px;*/
+    padding-top: 1px;
+    font-size: 29px;
+    font-weight: 800;
+}
+.before .logo p span:last-child {
+    color: #0c0ccc;
+}
+.before .form .input-group>.form-control:not(:last-child){
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.before .form .input-group-text {
+   background-color: navy;
+   color: white;
+   border-radius: 50%;
+   border-top-left-radius: 10px;
+
+}
+.before .form .input-group>.input-group-append>.input-group-text{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    z-index: 2;
+    left: -39px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

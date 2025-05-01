@@ -1,0 +1,52 @@
+.River {
+    margin-bottom: 199px;
+}
+.River .mleft .inner{
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.River .mleft {
+    margin-bottom: 91px;
+}
+.River .mleft .shadw {
+    background: #f8f9fa;
+    z-index: 2;
+    padding: 41px;
+    position: absolute;
+    left: 27%;
+    top: 54%;
+    right: 2%;
+}
+
+.River .mleft img {
+    transition: all 1.3s ease;
+}
+.River .mleft .inner:hover img {
+    transform: scale(1.2);
+}
+
+.River .mleft .dak {
+    width: 97px;
+    height: 76px;
+    line-height: 10px;
+    background-color: navy;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 8px;
+}
+
+.River .mleft .dak h5 {
+    font-size: 27px;
+}
+
+.River .mleft .shadw h6 {
+    margin-bottom: 17px;
+}
+.River .mleft .shadw h5 {
+    margin-bottom: 15px;
+}
+.River .mleft .shadw p span {
+    margin-right: 7px;
+}

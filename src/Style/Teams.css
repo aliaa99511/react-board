@@ -1,0 +1,44 @@
+
+
+.Teams {
+    margin-bottom: 188px;
+}
+.Teams .os {
+    font-size: 19px;
+    /*
+    margin-left: 216px;
+    margin-right: 180px;*/
+    margin-bottom: 54px;
+    margin-top: 14px;
+}
+.Teams h1 {
+    font-size: 43px;
+    font-weight: 700;
+}
+
+.Teams img {
+
+}
+.Teams .son {
+    margin-top: 46px;
+    margin-bottom: 82px;
+    position: relative;
+    z-index: 1;
+}
+.Teams .son .shadw {
+    width: 173px;
+    text-align: center;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0), 0 5px 8px rgba(0, 0, 0, 0.1);
+    padding-top: 9px;
+    padding-bottom: 1px;
+    border-radius: 14px;
+    /*
+    margin-left: 102px;
+    margin-top: -22px;*/
+    position: absolute;
+    top: 85%;
+    left: 25%;    
+    z-index: 2;
+    /*bottom: -36px;*/
+    background-color: white;
+}

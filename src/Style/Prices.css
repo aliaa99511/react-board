@@ -1,0 +1,116 @@
+.Prices {
+    margin-bottom: 114px;
+}
+.Prices h1 {
+    padding-top: 85px;
+}
+.Prices .para {
+    font-size: 17px;
+    margin-bottom: 115px;
+    margin-top: 21px;
+/*
+    width: 508px;
+    margin-left: 524px;*/
+}
+.Prices .son{
+    box-shadow: 0px 0px 25px rgba(206, 206, 206, 0.5);
+    border: 1px solid #80808054;
+    border-top: 0;
+    margin-bottom: 100px;
+
+}
+.Prices .son .colo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.Prices .son .circl {
+    width: 158px;
+    height: 130px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    z-index: 2;
+    /*top: -75px;
+    left: 115px;*/
+    background-color: white;
+    top: -64%;
+
+}
+.Prices .son .circl h2 {
+    color: rgba(31,43,123,0.8);
+    font-size: 44px;
+    padding-top: 19px;
+    margin-bottom: -11px;
+}
+.Prices .son h3 {
+    padding-top: 65px;
+}
+.Prices .son button {
+    background-color: #8080801c;
+    border-radius: 0;
+    /*width: 309px;*/
+    width: 90%;
+    margin-left: 19px;
+    color: black;
+    border: 0;
+    margin-bottom: 17px;
+    margin-top: 39px;
+}
+.Prices .son hr {
+    margin-top: 0px;
+}
+.Prices .detai {
+    margin-top: 31px;
+}
+
+.Prices .son1 button{
+    background-color: navy;
+    transition: all 0.3s ease-in;
+    color: white;
+    border: 0;
+}
+.Prices .son:hover button{
+        background-color: navy;
+        transition: all 0.3s ease-in;
+        color: white;
+        border: 0;
+}
+.Prices .son1 .circl{
+    background-color: navy;
+    transition: all 0.3s ease-in;
+    color: white;
+    border: 0;
+
+}
+.Prices .son:hover .circl{
+    background-color: navy;
+    transition: all 0.3s ease-in;
+    color: white;
+    border: 0;
+
+}
+.Prices .son1 .colo{
+    background-color: navy;
+    transition: all 0.3s ease-in;
+    color: white;
+
+}
+.Prices .son:hover .colo{
+    background-color: navy;
+    transition: all 0.3s ease-in;
+    color: white;
+
+}
+.Prices .son1 .circl h2 {
+    color: white;
+}
+
+.Prices .son:hover .circl h2 {
+    color: white;
+}

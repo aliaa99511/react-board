@@ -1,0 +1,37 @@
+
+.Cartoon1 {
+    margin-top: 80px;
+}
+.Cartoon1 .son1 img {
+    height: 597px;
+}
+.Cartoon1 .son2 h2 {
+    color: #2b044d;
+    font-size: 50px;
+    margin-top: 54px;
+    margin-bottom: 56px;
+}
+.Cartoon1 .son2 .medi .med1 {
+    display: flex;
+   width: 300px;
+}
+.Cartoon1 .son2 .medi .med1 .medbod h5 {
+    font-size: 22px;
+}
+.Cartoon1 .son2 .medi .med1 .medbod p {
+    padding-right: 89px;
+    font-size: 17px;
+    margin-bottom: 47px;
+}
+.Cartoon1 .son2 .medi .med1 i {
+    width: 131px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background-image: -webkit-linear-gradient(90deg, #e78ae9 0%, #926ef8 100%);
+    border-radius: 50%;
+    color: white;
+    margin-right: 17px;
+    font-size: 27px;
+
+}

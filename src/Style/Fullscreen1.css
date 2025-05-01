@@ -1,0 +1,26 @@
+
+
+.Fullscreen1 .lefft{
+    width: 607px;
+    margin-left: 149px;
+    margin-top: -563px;
+}
+.Fullscreen1 .lefft h1 {
+    font-size: 61px;
+    font-weight: 800;
+    color: #030330;
+    margin-bottom: 57px;
+}
+.Fullscreen1 .lefft button {
+    padding: 12px;
+    font-size: 25px;
+    padding-left: 24px;
+    padding-right: 31px;
+    margin-bottom: 168px;
+
+}
+
+.Fullscreen1 .lefft button:last-child {
+    margin-left: 19px;
+    margin-top: 57px;
+}

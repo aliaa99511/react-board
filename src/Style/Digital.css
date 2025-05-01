@@ -1,0 +1,30 @@
+.Digital {
+    padding-top: 162px;
+    padding-bottom: 128px;
+}
+.Digital .item1 {
+    margin-left: -91px;
+    margin-bottom: 43px;
+}
+.Digital .item1 img {
+    width: 529px;
+    height: 500px;
+}
+.Digital .item2 h1 {
+    color: #2b4b80;
+    font-weight: 700;
+    font-size: 49px;
+    margin-bottom: 44px;
+}
+.Digital .item2 p {
+    font-size: 18px;
+    line-height: 33px;
+    margin-bottom: 38px;
+}
+.Digital .item2  button {
+    background: #f9218d;
+    font-size: 21px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 25px;
+}

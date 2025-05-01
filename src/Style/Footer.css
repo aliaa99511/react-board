@@ -1,0 +1,88 @@
+.footer{
+    background-image: url("/images/footer_bg.jpg");
+    background-size: cover;
+    width: 100%;
+    /*height: 600px;*/
+    background-repeat: no-repeat;
+    color: white;
+    padding: 50px;
+}
+.footer .onne h5{
+    margin-bottom: 18px;
+    margin-left: 10px;
+    font-size: 29px;
+}
+.footer h5{
+    margin-top: 51px;
+
+}
+.footer .twwo h5{
+    margin-bottom: 18px;
+    font-size: 29px;
+}
+
+.footer .thhree .llinks{
+    margin-top: 38px;
+
+}
+
+.footer .thhree .llinks i:hover{
+color: #adb5bd;
+}
+.footer .thhree {
+    margin-bottom: 50px;
+}
+.footer .thhree h5{
+    margin-bottom: 18px;
+    font-size: 29px;
+    margin-top: -20px;
+}
+.footer .twwo address,.footer .thhree p{
+    color: #adb5bd;
+
+
+}
+.footer .ul-list .list-item a {
+    padding: 10px 15px;
+    display: block;
+    color: #adb5bd;
+    text-decoration: none;
+}
+
+.footer .ul-list .list-item a:hover{
+    color: white;
+}
+
+.footer .thhree .btn {
+    color: white!important;
+}
+
+.footer .copy{
+    color: #adb5bd;
+}
+
+/*responsive*/
+
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .footer .thhree h5{margin-top: 55px;}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .footer .thhree h5{margin-top: 55px;}
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .footer .thhree {margin-top: 55px;margin-left: 42px}
+}

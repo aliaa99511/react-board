@@ -1,0 +1,22 @@
+.Paginate {
+   display: flex!important;
+   justify-content: center!important;
+   align-items: center!important;
+    margin-bottom: 75px;
+    margin-top: -18px;
+}
+.Paginate li.page-item {
+    border-radius: 50%;
+    margin-left: 9px;
+}
+
+.Paginate .page-link {
+    border-radius: 50%;
+}
+.Paginate .page-item:first-child .page-link {
+    border-radius: 50%;
+}
+
+.Paginate .page-item:last-child .page-link {
+    border-radius: 50%;
+}

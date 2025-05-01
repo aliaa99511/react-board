@@ -1,0 +1,48 @@
+.Forrm {
+    background-image: url(/images/call-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 90px 0;
+    margin-bottom: 84px;
+}
+.Forrm .first{
+    color: white;
+}
+.Forrm .first h3 {
+    font-size: 32px;
+    margin-bottom: 23px;
+}
+.Forrm .first p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+.Forrm .first h6 {
+    border-bottom: 1.5px solid #88C417;
+    width: 109px;
+    font-size: 18px;
+}
+
+.Forrm .last button {
+    margin-left: 12px;
+    background: #88C417;
+    color: white;
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 11px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.Forrm .last .form-control {
+    padding: 23px;
+    border: 0;
+    border-radius: 0;
+}
+
+.Forrm .last select.sele.form-control {
+    padding: .375rem .75rem;
+    height: 47px;
+}
+

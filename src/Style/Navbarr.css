@@ -1,0 +1,28 @@
+
+
+.navbar {
+    overflow: hidden!important;
+    background-color: #154991!important;
+    color: black!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f4f4!important;
+    font-size: 18px!important;
+    font-weight: 500!important;
+    margin-right: 25px!important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #6c757d!important
+}
+
+@media (min-width: 768px){
+    .navbar-expand-md .navbar-collapse {
+        display: flex!important;
+        justify-content: center!important;
+        align-items: center!important;
+    }
+}
+
+
+

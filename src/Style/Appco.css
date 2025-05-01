@@ -1,0 +1,47 @@
+.Appco{
+    background-color: #f4feff;
+}
+.Appco .contt {
+    padding-top: 195px;
+}
+.Appco .two2 img {
+    width: 444px;
+    height: 557px;
+}
+
+.Appco .one1 button {
+    background: #f9218d;
+    font-size: 21px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 25px;
+    border-radius: 27px;
+}
+.Appco .one1 h6{
+    color: #484c4f
+}
+.Appco .one1 h1 {
+    color: #2b044d;
+    font-size: 58px;
+    margin-top: 20px;
+    margin-bottom: 37px;
+}
+.Appco .one1 p {
+    font-size: 19px;
+    margin-bottom: 67px;
+}
+.Appco .one1 .but {
+    display: flex;
+    margin-bottom: 86px;
+}
+
+.Appco .one1 .but .ico {
+    background: #d852e8;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+    font-size: 21px;
+}

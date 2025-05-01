@@ -1,0 +1,51 @@
+
+.Resturent {
+    margin-bottom: 140px;
+    position: relative;
+    z-index: 1;
+}
+.Resturent .mleft .shadw {
+    background: rgba(252, 252, 252, 0.95);
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 30%;
+    margin-right: 30px;
+    padding: 79px;
+    border-radius: 10px;
+}
+
+.Resturent .mleft img {
+    width: 816px;
+    height: 760px;
+}
+.Resturent .mleft h6 {
+    color: #dca73a;
+    font-weight: 700;
+    margin-bottom: 21px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+.Resturent .mleft h5 {
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+
+.Resturent .mleft .shadw p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 42px;
+}
+.Resturent .mleft .shadw button {
+    padding: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 18px;
+}
+
+.Resturent .mleft .shadw span {
+    margin-right: 10px;
+}
+
+
+

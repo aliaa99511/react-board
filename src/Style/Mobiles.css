@@ -1,0 +1,71 @@
+
+.Mobiles {
+    margin-bottom: 103px;
+}
+.Mobiles .iitem1 img {
+    width: 479px;
+    height: 487px;
+}
+
+.Mobiles .iitem2 .bott{
+    display: flex; 
+}
+.Mobiles .iitem2 .mytex {
+    font-size: 17px;
+    margin-bottom: 66px;
+}
+
+.Mobiles .iitem2 h1 {
+    color: #5b32b4;
+    margin-bottom: 34px;
+    font-size: 48px;
+}
+.Mobiles .iitem2 .bott .flexx{
+    display: flex;
+}
+.Mobiles .iitem2 .bott .flexx i {
+    font-size: 26px;
+    margin-top: 7px;
+}
+.Mobiles .iitem2 .bott .flexx .vvv{
+    display: block;
+}
+
+.Mobiles .iitem2 .bott .flexx .vvv p{
+    margin-bottom: 0px;
+
+}
+.Mobiles .iitem2 .bott .flexx .vvv p:first-child{
+    font-size: 13px;
+
+}
+.Mobiles .iitem2 .bott .flexx .vvv p:last-child{
+    margin-left: 19px;
+
+}
+.Mobiles .iitem2 .bott button:hover{
+    background-color: #fb397d;
+    background-color: #fb397d;
+    color: white;
+    transition: all 0.3s ease-in;
+}
+.Mobiles .iitem2 .bott button {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0), 0 5px 8px rgba(0, 0, 0, 0.1);
+    color: #576068;
+    border: 1px solid #80808052;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 41px;
+    border-bottom-right-radius: 27px;
+    padding-left: 22px;
+    padding-right: 29px;
+}
+
+.Mobiles .iitem2 .bott button:last-child{
+    margin-left: 33px;
+
+}
+.Mobiles .iitem2 .bott .btn-outline-danger:not(:disabled):not(.disabled):active{
+    background-color: #fb397d;
+    border-color: #fb397d;
+    color: white;
+}

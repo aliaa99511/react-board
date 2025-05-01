@@ -1,0 +1,24 @@
+
+
+
+.fullscreen6{
+    background-image: url("/images/section_bg03.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullscreen6 .os {
+    color: white;
+}
+.fullscreen6 .list {display: flex;margin-left: 10px;}
+
+.fullscreen6 .list li:first-child a{color: white;}
+
+.fullscreen6 .list li:first-child a:hover{text-decoration: none;}
+
+.fullscreen6 .list li:last-child {color: gainsboro;}
