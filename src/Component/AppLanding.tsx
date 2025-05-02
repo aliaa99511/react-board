@@ -36,7 +36,7 @@ const AppLanding = () => {
   ];
 
   return (
-    <div className="app-landing-section">
+    <div className="app-landing-section py-4">
       <Container>
         <div className="landing-container">
           <Row>

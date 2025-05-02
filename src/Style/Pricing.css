@@ -1,9 +1,10 @@
 .pricing-section {
-    margin-bottom: 114px;
+    margin-top: 40px;
+    /* margin-bottom: 50px; */
 }
 
 .pricing-section h1 {
-    padding-top: 85px;
+    /* padding-top: 85px; */
 }
 
 .pricing-section .pricing-description {

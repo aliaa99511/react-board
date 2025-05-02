@@ -16,7 +16,7 @@ const AppPromo = () => {
   ];
 
   return (
-    <div className="app-promo-section">
+    <div className="app-promo-section py-4">
       <Container>
         <Row>
           <Col>

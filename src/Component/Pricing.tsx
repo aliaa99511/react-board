@@ -42,7 +42,7 @@ const Pricing = () => {
   ];
 
   return (
-    <section className="pricing-section text-center">
+    <section className="pricing-section text-center py-4">
       <Container>
         <h1>SERVICE & OPTIMAL PRICE</h1>
         <p className="pricing-description text-muted">

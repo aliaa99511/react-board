@@ -15,7 +15,7 @@ const DigitalProductSection = () => {
   ];
 
   return (
-    <div className="digital-product-section">
+    <div className="digital-product-section py-4">
       <Container>
         <Row>
           {digitalContent.map((item) => (

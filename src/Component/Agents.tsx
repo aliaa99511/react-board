@@ -24,7 +24,7 @@ const Agents = () => {
   ];
 
   return (
-    <div className="team-section">
+    <div className="team-section py-4">
       <Container>
         <Row>
           {teamData.map((member) => (

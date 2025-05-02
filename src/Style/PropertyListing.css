@@ -1,7 +1,9 @@
 .property-listing-section {
     background-color: #8080800d;
-    padding-top: 138px;
-    padding-bottom: 168px;
+    /* margin-bottom: 100px;
+    margin-top: 150px; */
+     padding-top: 138px;
+    padding-bottom: 168px; 
 }
 
 .property-listing-section .property-cards {

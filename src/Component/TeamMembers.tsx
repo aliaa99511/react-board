@@ -24,7 +24,7 @@ const TeamMembers = () => {
   ];
 
   return (
-    <div className="team-members-section text-center">
+    <div className="team-members-section text-center py-5">
       <Container>
         <h1 className="team-members-title">Our Team</h1>
         <p className="team-members-description text-muted">

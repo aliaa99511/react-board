@@ -26,7 +26,7 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <div className="features-section">
+    <div className="features-section py-4">
       <Container className="features-container" fluid={true}>
         <Row className="features-row">
           <Col>  

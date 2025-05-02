@@ -1,10 +1,11 @@
 .team-members-section {
-    margin-bottom: 188px;
+    margin-top: 40px;
+    /* margin: 70px 0; */
 }
 
 .team-members-section .team-members-description {
     font-size: 19px;
-    margin-bottom: 54px;
+    margin-bottom: 30px;
     margin-top: 14px;
 }
 

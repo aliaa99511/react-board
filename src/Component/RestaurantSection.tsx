@@ -15,7 +15,7 @@ const RestaurantSection = () => {
   ];
 
   return (
-    <div className="restaurant-section">
+    <div className="restaurant-section py-4">
       {restaurantCards.map((card) => (
         <div className="restaurant-card" key={card.id}>
           <img src={card.image} alt="Dining" className="restaurant-image" />
