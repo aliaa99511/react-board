@@ -1,11 +1,11 @@
-import Forms from "../Component/Forms"
+import ContactForm from "../Component/ContactForm"
 import ContactFullScreen from "../Component/ContactFullScreen"
 
 const Contact = () => {
     return (
         <div>
             <ContactFullScreen />
-            <Forms />
+            <ContactForm />
         </div>
     )
 }

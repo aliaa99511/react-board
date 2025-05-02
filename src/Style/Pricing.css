@@ -1,0 +1,118 @@
+.pricing-section {
+    margin-bottom: 114px;
+}
+
+.pricing-section h1 {
+    padding-top: 85px;
+}
+
+.pricing-section .pricing-description {
+    font-size: 17px;
+    margin-bottom: 115px;
+    margin-top: 21px;
+}
+
+.pricing-section .pricing-card {
+    box-shadow: 0px 0px 25px rgba(206, 206, 206, 0.5);
+    border: 1px solid #80808054;
+    border-top: 0;
+    margin-bottom: 100px;
+}
+
+.pricing-section .pricing-card .pricing-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.pricing-section .pricing-card .price-bubble {
+    width: 158px;
+    height: 130px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    top: -64%;
+}
+
+.pricing-section .pricing-card .price-bubble h2 {
+    color: rgba(31,43,123,0.8);
+    font-size: 44px;
+    padding-top: 19px;
+    margin-bottom: -11px;
+}
+
+.pricing-section .pricing-card h3 {
+    padding-top: 65px;
+}
+
+.pricing-section .pricing-card button {
+    background-color: #8080801c;
+    border-radius: 0;
+    width: 90%;
+    margin-left: 19px;
+    color: black;
+    border: 0;
+    margin-bottom: 17px;
+    margin-top: 39px;
+}
+
+.pricing-section .pricing-card hr {
+    margin-top: 0px;
+}
+
+.pricing-section .pricing-features {
+    margin-top: 31px;
+}
+
+.pricing-section .basic-plan button {
+    background-color: navy;
+    transition: all 0.3s ease-in;
+    color: white;
+    border: 0;
+}
+
+.pricing-section .pricing-card:hover button {
+    background-color: navy;
+    transition: all 0.3s ease-in;
+    color: white;
+    border: 0;
+}
+
+.pricing-section .basic-plan .price-bubble {
+    background-color: navy;
+    transition: all 0.3s ease-in;
+    color: white;
+    border: 0;
+}
+
+.pricing-section .pricing-card:hover .price-bubble {
+    background-color: navy;
+    transition: all 0.3s ease-in;
+    color: white;
+    border: 0;
+}
+
+.pricing-section .basic-plan .pricing-header {
+    background-color: navy;
+    transition: all 0.3s ease-in;
+    color: white;
+}
+
+.pricing-section .pricing-card:hover .pricing-header {
+    background-color: navy;
+    transition: all 0.3s ease-in;
+    color: white;
+}
+
+.pricing-section .basic-plan .price-bubble h2 {
+    color: white;
+}
+
+.pricing-section .pricing-card:hover .price-bubble h2 {
+    color: white;
+}

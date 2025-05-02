@@ -1,0 +1,75 @@
+.app-promo-section {
+    margin-bottom: 103px;
+}
+
+.app-promo-section .promo-image img {
+    width: 479px;
+    height: 487px;
+}
+
+.app-promo-section .promo-content .app-buttons {
+    display: flex; 
+}
+
+.app-promo-section .promo-content .promo-description {
+    font-size: 17px;
+    margin-bottom: 66px;
+}
+
+.app-promo-section .promo-content .promo-title {
+    color: #5b32b4;
+    margin-bottom: 34px;
+    font-size: 48px;
+}
+
+.app-promo-section .promo-content .app-button .button-content {
+    display: flex;
+}
+
+.app-promo-section .promo-content .app-button .button-content i {
+    font-size: 26px;
+    margin-top: 7px;
+}
+
+.app-promo-section .promo-content .app-button .button-labels {
+    display: block;
+}
+
+.app-promo-section .promo-content .app-button .button-labels p {
+    margin-bottom: 0px;
+}
+
+.app-promo-section .promo-content .app-button .button-labels .button-subtitle {
+    font-size: 13px;
+}
+
+.app-promo-section .promo-content .app-button .button-labels .button-title {
+    margin-left: 19px;
+}
+
+.app-promo-section .promo-content .app-button:hover {
+    background-color: #fb397d;
+    color: white;
+    transition: all 0.3s ease-in;
+}
+
+.app-promo-section .promo-content .app-button {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0), 0 5px 8px rgba(0, 0, 0, 0.1);
+    color: #576068;
+    border: 1px solid #80808052;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 41px;
+    border-bottom-right-radius: 27px;
+    padding-left: 22px;
+    padding-right: 29px;
+}
+
+.app-promo-section .promo-content .app-button:last-child {
+    margin-left: 33px;
+}
+
+.app-promo-section .promo-content .app-button.btn-outline-danger:not(:disabled):not(.disabled):active {
+    background-color: #fb397d;
+    border-color: #fb397d;
+    color: white;
+}

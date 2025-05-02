@@ -1,0 +1,54 @@
+.restaurant-section {
+    margin-bottom: 140px;
+    position: relative;
+    z-index: 1;
+}
+
+.restaurant-card {
+    position: relative;
+}
+
+.restaurant-content {
+    background: rgba(252, 252, 252, 0.95);
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 30%;
+    margin-right: 30px;
+    padding: 79px;
+    border-radius: 10px;
+}
+
+.restaurant-image {
+    width: 816px;
+    height: 760px;
+}
+
+.restaurant-subtitle {
+    color: #dca73a;
+    font-weight: 700;
+    margin-bottom: 21px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.restaurant-title {
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+
+.restaurant-description {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 42px;
+    color: #6c757d;
+}
+
+.restaurant-button {
+    padding: 12px 22px;
+    font-size: 18px;
+}
+
+.button-text {
+    margin-right: 10px;
+}

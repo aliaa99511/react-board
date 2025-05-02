@@ -1,0 +1,33 @@
+.feature-cards-section {
+   position: relative;
+}
+
+.feature-cards-container .feature-card {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0),
+                0 5px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.feature-cards-container .feature-card .feature-image {
+    width: 100%;
+    height: 250px;
+    border: 20px solid white;
+}
+
+.feature-cards-container .feature-card .feature-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-cards-container .feature-card .feature-content .feature-title {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.feature-cards-container .feature-card .feature-content .feature-button {
+    padding: 10px;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 12px;
+    margin-bottom: 29px;
+}

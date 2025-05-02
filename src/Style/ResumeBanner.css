@@ -1,0 +1,39 @@
+.resume-banner {
+    background-image: url("/images/cv_bg.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    margin-bottom: 116px;
+}
+
+.resume-banner__overlay {
+    background-color: rgba(31,43,123,0.8);
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+}
+
+.resume-banner__subtitle {
+    font-size: 20px;
+    margin-bottom: 22px;
+}
+
+.resume-banner__title {
+    font-size: 62px;
+    margin-bottom: 47px;
+}
+
+.resume-banner__cta {
+    color: #8b92dd;
+    border: 1px solid #8b92dd;
+    padding: 17px 38px;
+}
+
+.resume-banner__cta:hover {
+    background: #8b92dd;
+    color: white;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in;
+}

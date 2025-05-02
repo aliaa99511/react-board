@@ -1,0 +1,92 @@
+.property-listing-section {
+    background-color: #8080800d;
+    padding-top: 138px;
+    padding-bottom: 168px;
+}
+
+.property-listing-section .property-image {
+    height: 219px;
+}
+
+.property-listing-section .property-badges {
+    display: flex;
+}
+
+.property-listing-section .property-badges h6 span {
+    padding: 7px;
+    font-size: 11px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.property-listing-section .property-badges h6:last-child {
+    margin-left: auto;
+}
+
+.property-listing-section .property-agent p {
+    color: white;
+    font-weight: 600;
+}
+
+.property-listing-section .property-agent {
+    display: flex;
+    margin-top: 125px;
+}
+
+.property-listing-section .property-agent .agent-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 7px;
+    margin-top: -3px;
+}
+
+.property-listing-section .property-price {
+    font-weight: 700;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.property-listing-section .property-title {
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.property-listing-section .property-meta i {
+    color: #17a2b8;
+}
+
+.property-listing-section .property-meta span {
+    margin-right: 19px;
+    margin-left: 4px;
+    text-align: center;
+}
+
+.property-listing-section .property-features {
+    color: white;
+    background: #1c1c1c;
+    height: 40px;
+    width: 113%;
+    margin-left: -20px;
+    margin-bottom: -19px;
+    margin-top: 28px;
+    display: flex;
+    padding: 11px;
+}
+
+.property-listing-section .property-features i {
+    color: #19c0db;
+    margin-top: 4px;
+    margin-right: 6px;
+}
+
+.property-listing-section .property-features .property-size {
+    margin-right: auto;
+}
+
+.property-listing-section .property-features .property-beds,
+.property-listing-section .property-features .property-baths {
+    margin-right: 32px;
+}

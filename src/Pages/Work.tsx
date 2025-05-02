@@ -1,17 +1,17 @@
-import Agents from "../Component/Agents"
-import Cvinformat from "../Component/Cvinformat"
+import TeamMembers from "../Component/Agents"
+import ResumeBanner from "../Component/ResumeBanner"
 import WorkFullScreen from "../Component/WorkFullScreen"
 import Gallary from "../Component/Gallary"
-import Prices from "../Component/Prices"
+import Pricing from "../Component/Pricing"
 
 const Work = () => {
     return (
         <div>
             <WorkFullScreen />
-            <Cvinformat />
-            <Prices />
+            <ResumeBanner />
+            <Pricing />
             <Gallary />
-            <Agents />
+            <TeamMembers />
         </div>
     )
 }

@@ -1,0 +1,89 @@
+.restaurant-cards-section {
+    margin-bottom: 100px;
+}
+
+.restaurant-cards-section .restaurant-image {
+    height: 218px;
+}
+
+.restaurant-cards-section .card {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0), 0 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-deck .card {
+    margin-bottom: 33px !important;
+}
+
+.restaurant-cards-section hr {
+    margin-top: 3px;
+    margin-bottom: 12px;
+}
+
+.restaurant-cards-section .restaurant-overlay-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    top: 186px;
+}
+
+.restaurant-cards-section p.card-text {
+    margin-bottom: 0px;
+}
+
+.restaurant-cards-section .location-container i {
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+.restaurant-cards-section .phone-container i {
+    margin-right: 8px;
+    margin-top: 4px;
+}
+
+.restaurant-cards-section .card-title {
+    margin-bottom: .75rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.restaurant-cards-section .price-rating-container {
+    display: flex;
+}
+
+.restaurant-cards-section .price-rating-container .rating-stars i {
+    color: #F09D17;
+}
+
+.restaurant-cards-section .price-rating-container .price-range {
+    color: #f03250;
+    margin-left: auto;
+    font-weight: 700;
+}
+
+.restaurant-cards-section .location-container,
+.restaurant-cards-section .phone-container {
+    display: flex;
+    color: #706f6f;
+}
+
+.restaurant-cards-section .restaurant-footer {
+    display: flex;
+}
+
+.restaurant-cards-section .category-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.restaurant-cards-section .restaurant-footer .status {
+    color: #50D437;
+    margin-left: auto;
+    font-weight: 700;
+}
+
+.restaurant-cards-section .restaurant-footer h6 {
+    margin-left: 9px;
+    margin-top: 5px;
+}

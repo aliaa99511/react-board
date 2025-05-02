@@ -1,0 +1,24 @@
+.pagination-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 75px;
+    margin-top: -18px;
+ }
+ 
+ .pagination-container li.page-item {
+     border-radius: 50%;
+     margin-left: 9px;
+ }
+ 
+ .pagination-container .page-link {
+     border-radius: 50%;
+ }
+ 
+ .pagination-container .page-item:first-child .page-link {
+     border-radius: 50%;
+ }
+ 
+ .pagination-container .page-item:last-child .page-link {
+     border-radius: 50%;
+ }

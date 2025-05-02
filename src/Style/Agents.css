@@ -1,13 +1,15 @@
-.Agents {
+.team-section {
     margin-bottom: 100px;
     margin-top: 191px;
 }
-.Agents .soon {
+
+.team-section .team-card {
     margin-bottom: 107px;
     position: relative;
     z-index: 1;
 }
-.Agents .soon img {
+
+.team-section .team-member-img {
     position: absolute;
     z-index: 2;
     width: 244px;
@@ -16,31 +18,34 @@
     bottom: 30%;
     left: -7%;
 }
-.Agents .shadw .social {
+
+.team-section .team-card-content {
+    width: 263px;
+    height: 331px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 7px;
+}
+
+.team-section .social-links {
     display: grid;
     position: absolute;
     z-index: 2;
     left: 63%;
     top: 8%;
 }
-.Agents .titlee {
+
+.team-section .team-member-info {
     position: absolute;
     z-index: 2;
     top: 68%;
 }
-.Agents .soon .shadw {
-    width: 263px;
-    height: 331px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-    border-radius: 7px;
-}
-.Agents .soon .shadw h4 {
+
+.team-section .team-card-content h4 {
     margin-left: 49px;
     font-size: 22px;
     margin-top: 19px;
 }
 
-.Agents .soon .shadw p {
+.team-section .team-card-content p {
     margin-left: 49px;
-
 }

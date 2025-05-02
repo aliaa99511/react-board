@@ -1,62 +1,62 @@
-import '../Style/Gallary.css';
+import '../Style/Gallery.css';
 import { Container, Row, Col } from 'reactstrap';
 
-const Gallary = () => {
+const Gallery = () => {
   const galleryItems = [
     {
-      className: "photo1",
+      containerClass: "gallery-item-container-1",
       images: [
-        { src: "images/instagram1.png", className: "img1" },
-        { src: "images/instagram6.png", className: "img2" }
+        { src: "images/instagram1.png", imgClass: "gallery-image-1" },
+        { src: "images/instagram6.png", imgClass: "gallery-image-2" }
       ]
     },
     {
-      className: "photo2",
+      containerClass: "gallery-item-container-2",
       images: [
-        { src: "images/slide_thumb_1.png", className: "img3" }
+        { src: "images/slide_thumb_1.png", imgClass: "gallery-image-3" }
       ]
     },
     {
-      className: "photo3",
+      containerClass: "gallery-item-container-3",
       images: [
-        { src: "images/gallery3.jpg", className: "img4" },
-        { src: "images/cat-post-1.jpg", className: "img5" }
+        { src: "images/gallery3.jpg", imgClass: "gallery-image-4" },
+        { src: "images/cat-post-1.jpg", imgClass: "gallery-image-5" }
       ]
     },
     {
-      className: "photo4",
+      containerClass: "gallery-item-container-4",
       images: [
-        { src: "images/card-2.png", className: "img6" },
-        { src: "images/blog-4.jpg", className: "img7" }
+        { src: "images/card-2.png", imgClass: "gallery-image-6" },
+        { src: "images/blog-4.jpg", imgClass: "gallery-image-7" }
       ]
     },
     {
-      className: "photo5",
+      containerClass: "gallery-item-container-5",
       images: [
-        { src: "images/post-img2.jpg", className: "img8" }
+        { src: "images/post-img2.jpg", imgClass: "gallery-image-8" }
       ]
     },
     {
-      className: "photo6",
+      containerClass: "gallery-item-container-6",
       images: [
-        { src: "images/about2.png", className: "img9" },
-        { src: "images/instagram6.png", className: "img10" }
+        { src: "images/about2.png", imgClass: "gallery-image-9" },
+        { src: "images/instagram6.png", imgClass: "gallery-image-10" }
       ]
     }
   ];
 
   return (
-    <div className="Gallary">
+    <div className="gallery-section">
       <Container>
         <Row>
           {galleryItems.map((item, index) => (
             <Col key={index}>
-              <div className={item.className}>
+              <div className={item.containerClass}>
                 {item.images.map((img, imgIndex) => (
                   <img 
                     key={imgIndex} 
                     src={img.src} 
-                    className={img.className} 
+                    className={img.imgClass} 
                     alt={`gallery item ${index}-${imgIndex}`} 
                   />
                 ))}
@@ -69,4 +69,4 @@ const Gallary = () => {
   );
 };
 
-export default Gallary;
+export default Gallery;

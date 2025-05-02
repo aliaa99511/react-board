@@ -1,19 +1,19 @@
-import Appco from "../Component/Appco"
-import Digital from "../Component/Digital"
-import Forrm from "../Component/Forrm"
+import AppLanding from "../Component/AppLanding"
 import AboutFullScreen from "../Component/AboutFullScreen"
-import Hotel from "../Component/Hotel"
-import Resturent from "../Component/Resturent"
+import DigitalProductSection from "../Component/DigitalProductSection"
+import CallbackForm from "../Component/CallbackForm"
+import PropertyListing from "../Component/PropertyListing"
+import RestaurantSection from "../Component/RestaurantSection"
 
 const About = () => {
     return (
         <div>
             <AboutFullScreen />
-            <Appco />
-            <Hotel />
-            <Digital />
-            <Resturent />
-            <Forrm />
+            <AppLanding />
+            <PropertyListing />
+            <DigitalProductSection />
+            <RestaurantSection />
+            <CallbackForm />
         </div>
     )
 }

@@ -1,0 +1,51 @@
+.callback-section {
+    background-image: url(/images/call-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 90px 0;
+    margin-bottom: 84px;
+}
+
+.callback-section .callback-info {
+    color: white;
+}
+
+.callback-section .callback-info h3 {
+    font-size: 32px;
+    margin-bottom: 23px;
+}
+
+.callback-section .callback-info p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+
+.callback-section .callback-info h6 {
+    border-bottom: 1.5px solid #88C417;
+    width: 109px;
+    font-size: 18px;
+}
+
+.callback-section .submit-btn {
+    margin-left: 12px;
+    background: #88C417;
+    color: white;
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 11px 17px;
+    border: none;
+}
+
+.callback-section .callback-form .form-control {
+    padding: 23px;
+    border: 0;
+    border-radius: 0;
+}
+
+.callback-section .callback-form select.service-select.form-control {
+    padding: .375rem .75rem;
+    height: 47px;
+}

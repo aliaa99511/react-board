@@ -2,7 +2,7 @@ import '../Style/Agents.css';
 import { Container, Row, Col } from 'reactstrap';
 
 const Agents = () => {
-  const agentsData = [
+  const teamData = [
     {
       id: 1,
       image: 'images/team1.png',
@@ -24,19 +24,19 @@ const Agents = () => {
   ];
 
   return (
-    <div className="Agents">
+    <div className="team-section">
       <Container>
         <Row>
-          {agentsData.map((agent) => (
-            <Col key={agent.id}>
-              <div className="soon">
-                <img src={agent.image} alt={agent.name} />
-                <div className="shadw">
-                  <div className="titlee">
-                    <h4>{agent.name}</h4>
-                    <p className="text-muted">{agent.position}</p>
+          {teamData.map((member) => (
+            <Col key={member.id}>
+              <div className="team-card">
+                <img src={member.image} alt={member.name} className="team-member-img" />
+                <div className="team-card-content">
+                  <div className="team-member-info">
+                    <h4>{member.name}</h4>
+                    <p className="text-muted">{member.position}</p>
                   </div>
-                  <div className="social">
+                  <div className="social-links">
                     <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=">
                       <i className="fa fa-facebook"></i>
                     </a>

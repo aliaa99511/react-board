@@ -1,0 +1,35 @@
+.team-members-section {
+    margin-bottom: 188px;
+}
+
+.team-members-section .team-members-description {
+    font-size: 19px;
+    margin-bottom: 54px;
+    margin-top: 14px;
+}
+
+.team-members-section .team-members-title {
+    font-size: 43px;
+    font-weight: 700;
+}
+
+.team-members-section .team-member-card {
+    margin-top: 46px;
+    margin-bottom: 82px;
+    position: relative;
+    z-index: 1;
+}
+
+.team-members-section .team-member-card .team-member-info {
+    width: 173px;
+    text-align: center;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0), 0 5px 8px rgba(0, 0, 0, 0.1);
+    padding-top: 9px;
+    padding-bottom: 1px;
+    border-radius: 14px;
+    position: absolute;
+    top: 85%;
+    left: 25%;    
+    z-index: 2;
+    background-color: white;
+}

@@ -1,0 +1,43 @@
+.choose-us-section {
+    background-image: url("/images/chooseus-bg.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 130px;
+    margin-bottom: 160px;
+    padding: 70px 50px;
+}
+
+.choose-us-section .section-title {
+    color: white;
+}
+
+.choose-us-section .section-description {
+    color: #c0bebe;
+    font-size: 18px;
+    margin-bottom: 55px;
+}
+
+.choose-us-section .features-row {
+    margin-bottom: 35px;
+}
+
+.choose-us-section .feature-icon {
+    width: 87px;
+    height: 81px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 18px;
+    line-height: 84px;
+    text-align: center;
+    margin-right: 27px;
+}
+
+.choose-us-section .feature-item .media {
+    color: #c0bebe;
+    display: flex;
+}
+
+.choose-us-section .feature-heading {
+    color: white;
+}

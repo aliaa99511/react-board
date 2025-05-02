@@ -1,0 +1,53 @@
+.app-landing-section {
+    background-color: #f4feff;
+}
+
+.app-landing-section .landing-container {
+    padding-top: 195px;
+}
+
+.app-landing-section .landing-image-container img {
+    width: 444px;
+    height: 557px;
+}
+
+.app-landing-section .landing-content .download-button {
+    background: #f9218d;
+    font-size: 21px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 25px;
+    border-radius: 27px;
+}
+
+.app-landing-section .landing-content .landing-subtitle {
+    color: #484c4f;
+}
+
+.app-landing-section .landing-content .landing-title {
+    color: #2b044d;
+    font-size: 58px;
+    margin-top: 20px;
+    margin-bottom: 37px;
+}
+
+.app-landing-section .landing-content .landing-description {
+    font-size: 19px;
+    margin-bottom: 67px;
+}
+
+.app-landing-section .landing-content .action-buttons {
+    display: flex;
+    margin-bottom: 86px;
+}
+
+.app-landing-section .landing-content .play-icon-container {
+    background: #d852e8;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+    font-size: 21px;
+}

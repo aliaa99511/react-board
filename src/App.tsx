@@ -7,7 +7,7 @@ import Work from './Pages/Work';
 import Blog from './Pages/Blog';
 import Portfolio from './Pages/Portfolio';
 import Contact from './Pages/Contact';
-import Navbarr from './Pages/Navbarr';
+import Navigation from './Pages/Navigation';
 import Footer from './Pages/Footer';
 
 class App extends Component {
@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div>
-          <Navbarr />
+          <Navigation />
 
           <Routes>
             <Route path="/" element={<Home />} />
