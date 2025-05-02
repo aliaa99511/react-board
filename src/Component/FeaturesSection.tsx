@@ -29,12 +29,12 @@ const FeaturesSection = () => {
     <div className="features-section">
       <Container className="features-container" fluid={true}>
         <Row className="features-row">
-          <Col>
+          <Col>  
             <div className="features-image">
               <img src="images/best-features.png" alt="Best Features" />
             </div>
           </Col>
-          <Col>
+          <Col> 
             <div className="features-content">
               <h2>Some of the best features Of Our App!</h2>
               <div className="features-grid">

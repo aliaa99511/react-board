@@ -4,12 +4,35 @@
     padding-bottom: 168px;
 }
 
+.property-listing-section .property-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -15px; /* Negative margin to counteract card padding */
+}
+
+.property-listing-section .property-card {
+    flex: 0 0 calc(33.333% - 30px); /* Three cards per row with spacing */
+    margin: 0 15px 30px; /* Spacing between cards */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
 .property-listing-section .property-image {
     height: 219px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.property-listing-section .property-image-overlay {
+    padding: 15px;
 }
 
 .property-listing-section .property-badges {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .property-listing-section .property-badges h6 span {
@@ -20,10 +43,6 @@
     padding-top: 5px;
 }
 
-.property-listing-section .property-badges h6:last-child {
-    margin-left: auto;
-}
-
 .property-listing-section .property-agent p {
     color: white;
     font-weight: 600;
@@ -32,6 +51,7 @@
 .property-listing-section .property-agent {
     display: flex;
     margin-top: 125px;
+    align-items: center;
 }
 
 .property-listing-section .property-agent .agent-avatar {
@@ -39,7 +59,6 @@
     height: 40px;
     border-radius: 50%;
     margin-right: 7px;
-    margin-top: -3px;
 }
 
 .property-listing-section .property-price {
@@ -54,6 +73,11 @@
     text-align: center;
 }
 
+.property-listing-section .property-meta {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 .property-listing-section .property-meta i {
     color: #17a2b8;
 }
@@ -61,24 +85,23 @@
 .property-listing-section .property-meta span {
     margin-right: 19px;
     margin-left: 4px;
-    text-align: center;
 }
 
 .property-listing-section .property-features {
     color: white;
     background: #1c1c1c;
     height: 40px;
-    width: 113%;
+    width: calc(100% + 40px); /* Full width with padding */
     margin-left: -20px;
-    margin-bottom: -19px;
+    margin-bottom: -20px;
     margin-top: 28px;
     display: flex;
-    padding: 11px;
+    align-items: center;
+    padding: 0 20px;
 }
 
 .property-listing-section .property-features i {
     color: #19c0db;
-    margin-top: 4px;
     margin-right: 6px;
 }
 
@@ -89,4 +112,17 @@
 .property-listing-section .property-features .property-beds,
 .property-listing-section .property-features .property-baths {
     margin-right: 32px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .property-listing-section .property-card {
+        flex: 0 0 calc(50% - 30px); /* Two cards per row on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .property-listing-section .property-card {
+        flex: 0 0 100%; /* Single card per row on small screens */
+    }
 }

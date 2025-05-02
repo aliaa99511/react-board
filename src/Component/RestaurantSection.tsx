@@ -12,24 +12,6 @@ const RestaurantSection = () => {
       buttonText: "Learn more",
       buttonIcon: "fa fa-angle-right"
     },
-    {
-      id: 2,
-      image: "images/dining-img.png",
-      subtitle: "OUR RESTAURANT",
-      title: "Dining & Drinks",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-      buttonText: "Learn more",
-      buttonIcon: "fa fa-angle-right"
-    },
-    {
-      id: 3,
-      image: "images/dining-img.png",
-      subtitle: "OUR RESTAURANT",
-      title: "Dining & Drinks",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-      buttonText: "Learn more",
-      buttonIcon: "fa fa-angle-right"
-    },
   ];
 
   return (

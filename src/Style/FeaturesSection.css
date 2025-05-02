@@ -4,6 +4,8 @@
 
 .features-section .features-image img {
     height: 597px;
+    width: 100%; /* Added to ensure image scales with column */
+    object-fit: contain; /* Preserve aspect ratio */
 }
 
 .features-section .features-content h2 {
@@ -23,13 +25,12 @@
 }
 
 .features-section .features-content .features-grid .feature-item .feature-body p {
-    padding-right: 89px;
     font-size: 17px;
     margin-bottom: 47px;
 }
 
 .features-section .features-content .features-grid .feature-item i {
-    width: 131px;
+    width: 152px;
     height: 70px;
     text-align: center;
     line-height: 70px;
