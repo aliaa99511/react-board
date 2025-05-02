@@ -1,27 +1,38 @@
-import React, { Component } from 'react'
 import '../Style/Resturent.css'
 import { Button } from 'reactstrap';
 
+const Resturent = () => {
+  const restaurantData = [
+    {
+      id: 1,
+      image: "images/dining-img.png",
+      subtitle: "OUR RESTURENT",
+      title: "Dining & Drinks",
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+      buttonText: "Learn more",
+      buttonIcon: "fa fa-angle-right"
+    }
+    // You can add more restaurant objects here if needed
+  ];
 
-export class Resturent extends Component {
-render() {
-return (
+  return (
     <div className="Resturent">
-        <div className="mleft">
-            <img src="images/dining-img.png"/>
-            <div className="shadw">
-                <h6>OUR RESTURENT</h6>
-                <h5>Dining & Drinks</h5>
-                <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                <Button outline color="warning">
-                    <span>Learn more</span>
-                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                </Button>{' '}
-            </div>
+      {restaurantData.map((item) => (
+        <div className="mleft" key={item.id}>
+          <img src={item.image} alt="Dining" />
+          <div className="shadw">
+            <h6>{item.subtitle}</h6>
+            <h5>{item.title}</h5>
+            <p className="text-muted">{item.description}</p>
+            <Button outline color="warning">
+              <span>{item.buttonText}</span>
+              <i className={item.buttonIcon} aria-hidden="true"></i>
+            </Button>{' '}
+          </div>
         </div>
+      ))}
     </div>
-)
-}
+  );
 }
 
-export default Resturent
+export default Resturent;

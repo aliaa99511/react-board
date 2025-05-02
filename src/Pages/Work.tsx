@@ -1,27 +1,19 @@
-import React, { Component } from 'react'
-import Fullscreen3 from '../Workfiles/Fullscreen3'
-import Cvinformat from '../Workfiles/Cvinformat'
-import Prices from '../Workfiles/Prices'
-import Gallary from '../Workfiles/Gallary'
-import Agents from '../Workfiles/Agents'
-import River from '../Workfiles/River'
+import Agents from "../Component/Agents"
+import Cvinformat from "../Component/Cvinformat"
+import Fullscreen3 from "../Component/Fullscreen3"
+import Gallary from "../Component/Gallary"
+import Prices from "../Component/Prices"
 
-
-export class Work extends Component {
-    render() {
-        return (
-            <div>
-               <Fullscreen3/>
-               <Cvinformat/>
-               <Prices/>
-               <Gallary/>
-                <Agents />
-                <River/>
-            </div>
-        )
-    }
+const Work = () => {
+    return (
+        <div>
+            <Fullscreen3 />
+            <Cvinformat />
+            <Prices />
+            <Gallary />
+            <Agents />
+        </div>
+    )
 }
 
 export default Work
-/*    background-color: rgba(31,43,123,0.8);
-*/

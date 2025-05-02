@@ -1,6 +1,14 @@
 import { Component } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Work from './Pages/Work';
+import Blog from './Pages/Blog';
+import Portfolio from './Pages/Portfolio';
+import Contact from './Pages/Contact';
+import Navbarr from './Pages/Navbarr';
+import Footer from './Pages/Footer';
 
 class App extends Component {
   render() {

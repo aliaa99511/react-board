@@ -1,42 +1,33 @@
-import React, { Component } from 'react'
-import Fullscreen1 from '../Homefiles/Fullscreen1'
-import Underscreen from '../Homefiles/Underscreen'
-import Cartoon1 from '../Homefiles/Cartoon1'
-import Night from '../Homefiles/Night'
-import Teams from '../Homefiles/Teams'
-import Mobiles from '../Homefiles/Mobiles'
-import Cardes from '../Homefiles/Cardes'
-import Paginate from '../Homefiles/Paginate'
-import Agents from '../Homefiles/Agents'
-import River from '../Homefiles/River'
-import Hotel from '../Homefiles/Hotel'
-import Prices from '../Homefiles/Prices'
-import Gallary from '../Homefiles/Gallary'
+import Agents from "../Component/Agents"
+import Cardes from "../Component/Cardes"
+import Cartoon1 from "../Component/Cartoon1"
+import Fullscreen1 from "../Component/Fullscreen1"
+import Gallary from "../Component/Gallary"
+import Hotel from "../Component/Hotel"
+import Mobiles from "../Component/Mobiles"
+import Night from "../Component/Night"
+import Paginate from "../Component/Paginate"
+import Prices from "../Component/Prices"
+import Teams from "../Component/Teams"
+import Underscreen from "../Component/Underscreen"
 
-
-export class Home extends Component {
-    render() {
-        return (
-            <div>
-               <Fullscreen1/>
-               <Underscreen/>
-               <Cartoon1/>
-               <Night/>
-               <Teams/>
-               <Mobiles/>
-               <Cardes/>
-                <Paginate/>
-                <Agents />
-                <River/>
-                <Hotel/>
-                <Prices/>
-                <Gallary/>
-
-            </div>
-        )
-    }
+const Home = () => {
+    return (
+        <div>
+            <Fullscreen1 />
+            <Underscreen />
+            <Cartoon1 />
+            <Night />
+            <Teams />
+            <Mobiles />
+            <Cardes />
+            <Paginate />
+            <Agents />
+            <Hotel />
+            <Prices />
+            <Gallary />
+        </div>
+    )
 }
 
 export default Home
-/*    background-image: -webkit-linear-gradient(90deg, #e78ae9 0%, #926ef8 100%);
-*/

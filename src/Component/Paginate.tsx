@@ -1,56 +1,30 @@
-import React, { Component } from 'react'
-import '../Style/Paginate.css'
+import '../Style/Paginate.css';
 import { Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 
+const Paginate = () => {
+  const pageNumbers = [1, 2, 3, 4, 5];
+  
+  return (
+    <div className="Paginate">
+      <Pagination aria-label="Page navigation example">
+        <PaginationItem>
+          <PaginationLink previous href="#" />
+        </PaginationItem>
 
-export class Paginate extends Component {
-render() {
-    return (
-        <div className="Paginate">
-            <Pagination aria-label="Page navigation example">
+        {pageNumbers.map((number) => (
+          <PaginationItem key={number} active={number === 2}>
+            <PaginationLink href="#">
+              {number}
+            </PaginationLink>
+          </PaginationItem>
+        ))}
 
-                <PaginationItem>
-                    <PaginationLink previous href="#" />
-                </PaginationItem>
+        <PaginationItem>
+          <PaginationLink next href="#" />
+        </PaginationItem>
+      </Pagination> 
+    </div>
+  );
+};
 
-                <PaginationItem>
-                    <PaginationLink href="#">
-                    1
-                    </PaginationLink>
-                </PaginationItem>
-
-                <PaginationItem active>
-                    <PaginationLink href="#">
-                    2
-                    </PaginationLink>
-                </PaginationItem>
-
-                <PaginationItem>
-                    <PaginationLink href="#">
-                    3
-                    </PaginationLink>
-                </PaginationItem>
-
-                <PaginationItem>
-                    <PaginationLink href="#">
-                    4
-                    </PaginationLink>
-                </PaginationItem>
-
-                <PaginationItem>
-                    <PaginationLink href="#">
-                    5
-                    </PaginationLink>
-                </PaginationItem>
-
-                <PaginationItem>
-                    <PaginationLink next href="#" />
-                </PaginationItem>
-
-            </Pagination> 
-        </div>
-    )
-}
-}
-
-export default Paginate
+export default Paginate;

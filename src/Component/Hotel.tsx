@@ -1,141 +1,101 @@
-import React, { Component } from 'react'
-import '../Style/Hotel.css'
-import {Card, Button,Container, Badge,CardImg, CardTitle, CardText, CardDeck,CardSubtitle, CardBody,CardImgOverlay} from 'reactstrap';
+import '../Style/Hotel.css';
+import { Card, Container, Badge, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody, CardImgOverlay } from 'reactstrap';
 
+const Hotel = () => {
+  const hotelData = [
+    {
+      id: 1,
+      image: "images/villa-1.jpg",
+      feature: "FEATURE",
+      sale: "FOR SALE",
+      avatar: "images/comment_2.png",
+      agent: "jonathan walters",
+      title: "French Riviera villa",
+      location: "180 york road,london,uk",
+      type: "villa",
+      price: "$5900/month",
+      size: "780 sqft",
+      beds: 4,
+      baths: 3,
+      cars: 2
+    },
+    {
+      id: 2,
+      image: "images/villa-2.jpg",
+      feature: "FEATURE",
+      sale: "FOR SALE",
+      avatar: "images/comment_1.png",
+      agent: "jonathan walters",
+      title: "French Riviera villa",
+      location: "180 york road,london,uk",
+      type: "villa",
+      price: "$5900/month",
+      size: "780 sqft",
+      beds: 4,
+      baths: 3,
+      cars: 2
+    },
+    {
+      id: 3,
+      image: "images/villa-3.jpg",
+      feature: "FEATURE",
+      sale: "FOR SALE",
+      avatar: "images/comment_3.png",
+      agent: "jonathan walters",
+      title: "French Riviera villa",
+      location: "180 york road,london,uk",
+      type: "villa",
+      price: "$5900/month",
+      size: "780 sqft",
+      beds: 4,
+      baths: 3,
+      cars: 2
+    }
+  ];
 
-export class Hotel extends Component {
-render() {
-return (
+  return (
     <div className="Hotel">
-        <Container>
-            <CardDeck>
-                
-                <Card>
-                    <CardImg top width="100%" src="images/villa-1.jpg" className="carimg" />
-                    <CardImgOverlay>
-                        <CardText className="flexx1">
-                            <h6><Badge color="danger">FEATURE</Badge></h6>
-                            <h6><Badge color="info">FOR SALE</Badge></h6>
-                        </CardText>
-                        <CardText className="fleexx2">
-                            <img src="images/comment_2.png" className="pho"/>
-                            <p>jonathan walters</p>
-                        </CardText>
-                    </CardImgOverlay>
-                    <CardBody >
-                        <CardTitle className="text-center heed">French Riviera villa </CardTitle>
-                        <CardSubtitle className="text-center icon">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <span>180 york road,london,uk</span>
-                            <i class="fa fa-tag" aria-hidden="true"></i>
-                            <span>villa</span>
-                        </CardSubtitle>
-                        <CardText className="text-center mon">$5900\month</CardText>
-                        <CardText className="count">
-                            <i class="fa fa-arrows" aria-hidden="true"></i>
-                            <span className="sta">780 sqft</span>
-                            <i class="fa fa-bed" aria-hidden="true"></i>
-                            <span className="sta1">4</span>
-                            <i class="fa fa-bath" aria-hidden="true"></i>
-                            <span className="sta1">3</span>
-                            <i class="fa fa-car" aria-hidden="true"></i>
-                            <span>2</span>
-                        </CardText>
-                    </CardBody>
-                </Card>
-
-
-                <Card>
-                    <CardImg top width="100%" src="images/villa-2.jpg" className="carimg" />
-                    <CardImgOverlay>
-                        <CardText className="flexx1">
-                            <h6><Badge color="danger">FEATURE</Badge></h6>
-                            <h6><Badge color="info">FOR SALE</Badge></h6>
-                        </CardText>
-                        <CardText className="fleexx2">
-                            <img src="images/comment_1.png" className="pho"/>
-                            <p>jonathan walters</p>
-                        </CardText>
-                    </CardImgOverlay>
-                    <CardBody >
-                        <CardTitle className="text-center heed">French Riviera villa </CardTitle>
-                        <CardSubtitle className="text-center icon">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <span>180 york road,london,uk</span>
-                            <i class="fa fa-tag" aria-hidden="true"></i>
-                            <span>villa</span>
-                        </CardSubtitle>
-                        <CardText className="text-center mon">$5900\month</CardText>
-                        <CardText className="count">
-                            <i class="fa fa-arrows" aria-hidden="true"></i>
-                            <span className="sta">780 sqft</span>
-                            <i class="fa fa-bed" aria-hidden="true"></i>
-                            <span className="sta1">4</span>
-                            <i class="fa fa-bath" aria-hidden="true"></i>
-                            <span className="sta1">3</span>
-                            <i class="fa fa-car" aria-hidden="true"></i>
-                            <span>2</span>
-                        </CardText>
-                    </CardBody>
-                </Card>
-
-
-                <Card>
-                    <CardImg top width="100%" src="images/villa-3.jpg" className="carimg" />
-                    <CardImgOverlay>
-                        <CardText className="flexx1">
-                            <h6><Badge color="danger">FEATURE</Badge></h6>
-                            <h6><Badge color="info">FOR SALE</Badge></h6>
-                        </CardText>
-                        <CardText className="fleexx2">
-                            <img src="images/comment_3.png" className="pho"/>
-                            <p>jonathan walters</p>
-                        </CardText>
-                    </CardImgOverlay>
-                    <CardBody >
-                        <CardTitle className="text-center heed">French Riviera villa </CardTitle>
-                        <CardSubtitle className="text-center icon">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <span>180 york road,london,uk</span>
-                            <i class="fa fa-tag" aria-hidden="true"></i>
-                            <span>villa</span>
-                        </CardSubtitle>
-                        <CardText className="text-center mon">$5900\month</CardText>
-                        <CardText className="count">
-                            <i class="fa fa-arrows" aria-hidden="true"></i>
-                            <span className="sta">780 sqft</span>
-                            <i class="fa fa-bed" aria-hidden="true"></i>
-                            <span className="sta1">4</span>
-                            <i class="fa fa-bath" aria-hidden="true"></i>
-                            <span className="sta1">3</span>
-                            <i class="fa fa-car" aria-hidden="true"></i>
-                            <span>2</span>
-                        </CardText>
-                    </CardBody>
-                </Card>
-            </CardDeck>  
-        </Container>
+      <Container>
+        <CardDeck>
+          {hotelData.map((hotel) => (
+            <Card key={hotel.id}>
+              <CardImg top width="100%" src={hotel.image} className="carimg" />
+              <CardImgOverlay>
+                <CardText className="flexx1">
+                  <h6><Badge color="danger">{hotel.feature}</Badge></h6>
+                  <h6><Badge color="info">{hotel.sale}</Badge></h6>
+                </CardText>
+                <CardText className="fleexx2">
+                  <img src={hotel.avatar} className="pho" alt="agent" />
+                  <p>{hotel.agent}</p>
+                </CardText>
+              </CardImgOverlay>
+              <CardBody>
+                <CardTitle className="text-center heed">{hotel.title}</CardTitle>
+                <CardSubtitle className="text-center icon">
+                  <i className="fa fa-map-marker" aria-hidden="true"></i>
+                  <span>{hotel.location}</span>
+                  <i className="fa fa-tag" aria-hidden="true"></i>
+                  <span>{hotel.type}</span>
+                </CardSubtitle>
+                <CardText className="text-center mon">{hotel.price}</CardText>
+                <CardText className="count">
+                  <i className="fa fa-arrows" aria-hidden="true"></i>
+                  <span className="sta">{hotel.size}</span>
+                  <i className="fa fa-bed" aria-hidden="true"></i>
+                  <span className="sta1">{hotel.beds}</span>
+                  <i className="fa fa-bath" aria-hidden="true"></i>
+                  <span className="sta1">{hotel.baths}</span>
+                  <i className="fa fa-car" aria-hidden="true"></i>
+                  <span>{hotel.cars}</span>
+                </CardText>
+              </CardBody>
+            </Card>
+          ))}
+        </CardDeck>
+      </Container>
     </div>
-)
-}
-}
+  );
+};
 
-export default Hotel
-/*                          <div>
-                                <i class="fa fa-arrows" aria-hidden="true"></i>
-                                <span>780 sqft</span>
-                            </div>
-                            <div className="sta">
-                                <div>
-                                    <i class="fa fa-bed" aria-hidden="true"></i>
-                                    <span>4</span>
-                                <div>
-                                </div>                            
-                                    <i class="fa fa-bath" aria-hidden="true"></i>
-                                    <span>3</span>
-                                <div>
-                                </div>                           
-                                <i class="fa fa-car" aria-hidden="true"></i>
-                                    <span>2</span>
-                                </div>
-                            </div>*/
+export default Hotel;

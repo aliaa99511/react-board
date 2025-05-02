@@ -1,48 +1,50 @@
-import React, { Component } from 'react'
-import '../Style/Teams.css'
-import { Container, Row, Col,Button } from 'reactstrap';
+import React from 'react';
+import '../Style/Teams.css';
+import { Container, Row, Col } from 'reactstrap';
 
+const Teams = () => {
+  const teamMembers = [
+    {
+      id: 1,
+      image: 'images/1.png',
+      name: 'Rala Emaia',
+      position: 'Senior Director'
+    },
+    {
+      id: 2,
+      image: 'images/2.png',
+      name: 'Rala Emaia',
+      position: 'Senior Director'
+    },
+    {
+      id: 3,
+      image: 'images/3.png',
+      name: 'Rala Emaia',
+      position: 'Senior Director'
+    }
+  ];
 
-export class Teams extends Component {
-render() {
-    return (
-        <div className="Teams text-center">
-            <Container>
-                <h1>Our Team</h1>
-                <p className="text-muted os">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                <Row>
-                    <Col>
-                        <div className="son">
-                          <img src="images/1.png"/>
-                          <div className="shadw">
-                              <h4>Rala Emaia</h4>
-                              <p className="text-muted">Senior Director</p>
-                          </div>
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className="son">
-                          <img src="images/2.png"/>
-                          <div className="shadw">
-                              <h4>Rala Emaia</h4>
-                              <p className="text-muted">Senior Director</p>
-                          </div>
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className="son">
-                          <img src="images/3.png"/>
-                          <div className="shadw">
-                              <h4>Rala Emaia</h4>
-                              <p className="text-muted">Senior Director</p>
-                          </div>
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
-        </div>
-    )
-}
-}
+  return (
+    <div className="Teams text-center">
+      <Container>
+        <h1>Our Team</h1>
+        <p className="text-muted os">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+        <Row>
+          {teamMembers.map(member => (
+            <Col key={member.id}>
+              <div className="son">
+                <img src={member.image} alt={member.name} />
+                <div className="shadw">
+                  <h4>{member.name}</h4>
+                  <p className="text-muted">{member.position}</p>
+                </div>
+              </div>
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </div>
+  );
+};
 
-export default Teams
+export default Teams;

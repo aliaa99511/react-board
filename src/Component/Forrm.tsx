@@ -1,65 +1,86 @@
-import React, { Component } from 'react'
-import '../Style/Forrm.css'
-import { Container, Row, Col ,Button , Form, FormGroup, Label, Input} from 'reactstrap';
+import '../Style/Forrm.css';
+import { Container, Row, Col, Button, Form, FormGroup, Input } from 'reactstrap';
+import { InputType } from 'reactstrap/types/lib/Input';
 
+interface FormField {
+  type: InputType;
+  name: string;
+  placeholder: string;
+  col: number;
+  className?: string;
+  options?: string[];
+}
 
-export class Forrm extends Component {
-render() {
-    return (
-        <div className="Forrm">
-            <Container>
-                <div className="myalll">
-                    <Row>
-                        <Col xs="6">
-                            <div className="first">
-                                <h3>Request A Call Back</h3>
-                                <p>Posters had been a very beneficial marketing tool because it had paved to deliver an effective message that conveyed customer’s attention.</p>
-                                <h6>CONTACT US</h6>
-                            </div>
-                        </Col>
-                        <Col xs="6">
-                            <div className="last">
-                                <Form>
+const formFields: FormField[] = [
+  { type: 'text', name: 'name', placeholder: 'Name', col: 6 },
+  { type: 'email', name: 'email', placeholder: 'Email', col: 6 },
+  { type: 'text', name: 'phone', placeholder: 'Phone', col: 6 },
+  { 
+    type: 'select', 
+    name: 'service', 
+    placeholder: 'Choose our services', 
+    options: ['Choose our services', 'Web Development', 'Mobile App', 'UI/UX Design'],
+    col: 6,
+    className: 'sele'
+  }
+];
 
-                                    <Row form>
-                                        <Col md={6}>
-                                            <FormGroup>
-                                                <Input type="text" name="name"  placeholder="Name" />
-                                            </FormGroup>
-                                        </Col>
-                                        <Col md={6}>
-                                            <FormGroup>
-                                                <Input type="email" name="email" placeholder="Email" />
-                                            </FormGroup>
-                                        </Col>
-                                    </Row>
-
-                                    <Row form >
-                                        <Col md={6}>
-                                            <FormGroup>
-                                                <Input type="text" name="phone" placeholder="Phone" />
-                                            </FormGroup>
-                                        </Col>
-                                        <Col md={6}>
-                                            <FormGroup>
-                                                <Input type="select" className="sele" name="select" placeholder="Choose our services">
-                                                    <option>Choose our services</option>
-                                                </Input>                           
-                                            </FormGroup>
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <Button color="success">SUBMIT</Button>{' '}
-                                    </Row>
-                                </Form>
-                            </div>
-                        </Col>
-                    </Row>
-                </div>
-            </Container>    
+const Forrm = () => {
+  return (
+    <div className="Forrm">
+      <Container>
+        <div className="myalll">
+          <Row>
+            <Col xs="12" md="6">
+              <div className="first">
+                <h3>Request A Call Back</h3>
+                <p>Posters had been a very beneficial marketing tool because it had paved to deliver an effective message that conveyed customer's attention.</p>
+                <h6>CONTACT US</h6>
+              </div>
+            </Col>
+            <Col xs="12" md="6">
+              <div className="last">
+                <Form>
+                  <Row form>
+                    {formFields.map((field, index) => (
+                      <Col md={field.col} key={index}>
+                        <FormGroup>
+                          {field.type === 'select' ? (
+                            <Input 
+                              type="select"
+                              className={field.className} 
+                              name={field.name}
+                              placeholder={field.placeholder}
+                            >
+                              {field.options?.map((option, i) => (
+                                <option key={i} value={option}>{option}</option>
+                              ))}
+                            </Input>
+                          ) : (
+                            <Input 
+                              type={field.type} 
+                              name={field.name} 
+                              placeholder={field.placeholder} 
+                              required
+                            />
+                          )}
+                        </FormGroup>
+                      </Col>
+                    ))}
+                  </Row>
+                  <Row>
+                    <Col>
+                      <Button color="success" type="submit">SUBMIT</Button>
+                    </Col>
+                  </Row>
+                </Form>
+              </div>
+            </Col>
+          </Row>
         </div>
-    )
-}
-}
+      </Container>
+    </div>
+  );
+};
 
-export default Forrm
+export default Forrm;

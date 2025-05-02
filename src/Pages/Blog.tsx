@@ -1,17 +1,13 @@
-import React, { Component } from 'react'
-import Fullscreen4 from '../Blogfiles/Fullscreen4'
-import Jobs from '../Blogfiles/Jobs'
+import Fullscreen4 from "../Component/Fullscreen4"
+import Jobs from "../Component/Jobs"
 
-
-export class Blog extends Component {
-    render() {
-        return (
-            <div>
-                <Fullscreen4/>
-                <Jobs/>
-            </div>
-        )
-    }
+const Blog = () => {
+    return (
+        <div>
+            <Fullscreen4 />
+            <Jobs />
+        </div>
+    )
 }
 
 export default Blog
