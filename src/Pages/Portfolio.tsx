@@ -1,9 +1,9 @@
-import Fullscreen5 from "../Component/Fullscreen5"
+import PortfolioFullScreen from "../Component/PortfolioFullScreen"
 
 const Portfolio = () => {
     return (
         <div>
-            <Fullscreen5 />
+            <PortfolioFullScreen />
         </div>
     )
 }

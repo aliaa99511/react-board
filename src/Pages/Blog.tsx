@@ -1,10 +1,10 @@
-import Fullscreen4 from "../Component/Fullscreen4"
+import BlogFullScreen from "../Component/BlogFullScreen"
 import Jobs from "../Component/Jobs"
 
 const Blog = () => {
     return (
         <div>
-            <Fullscreen4 />
+            <BlogFullScreen />
             <Jobs />
         </div>
     )

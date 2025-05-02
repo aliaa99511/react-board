@@ -1,5 +1,5 @@
 import '../Style/Before.css'
-import { InputGroup, InputGroupAddon, InputGroupText, Input, Row, Col, Container } from 'reactstrap';
+import { InputGroup, InputGroupText, Input, Row, Col, Container } from 'reactstrap';
 
 const Before = () => {
     return (
@@ -17,7 +17,6 @@ const Before = () => {
                             <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/">
                                 <i className="fa fa-instagram"></i>
                             </a>
-
                             <a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/">
                                 <i className="fa fa-linkedin"></i>
                             </a>
@@ -35,18 +34,14 @@ const Before = () => {
                         <div className="form">
                             <InputGroup>
                                 <Input placeholder="search" />
-                                <InputGroupAddon addonType="append">
-                                    <InputGroupText>
-                                        <i className="fa fa-search" aria-hidden="true"></i>
-                                    </InputGroupText>
-                                </InputGroupAddon>
+                                <InputGroupText>
+                                    <i className="fa fa-search" aria-hidden="true"></i>
+                                </InputGroupText>
                             </InputGroup>
                         </div>
                     </Col>
                 </Row>
-
             </div>
-
         </Container>
     )
 }

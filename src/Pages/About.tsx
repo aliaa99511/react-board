@@ -1,14 +1,14 @@
 import Appco from "../Component/Appco"
 import Digital from "../Component/Digital"
 import Forrm from "../Component/Forrm"
-import Fullscreen2 from "../Component/Fullscreen2"
+import AboutFullScreen from "../Component/AboutFullScreen"
 import Hotel from "../Component/Hotel"
 import Resturent from "../Component/Resturent"
 
 const About = () => {
     return (
         <div>
-            <Fullscreen2 />
+            <AboutFullScreen />
             <Appco />
             <Hotel />
             <Digital />

@@ -1,10 +1,10 @@
 import Forms from "../Component/Forms"
-import Fullscreen6 from "../Component/Fullscreen6"
+import ContactFullScreen from "../Component/ContactFullScreen"
 
 const Contact = () => {
     return (
         <div>
-            <Fullscreen6 />
+            <ContactFullScreen />
             <Forms />
         </div>
     )
